@@ -14,11 +14,7 @@
 	</header>
 	<nav><!--section of mayor navigation of a page-->
 		<p><b>se utiliza la navegacion en partes de mayor navegacion de la pagina como lo son tablas de contenidos</b></p>
-		<a href="https://www.instagram.com/mariaboteropin/?hl=es-la" target="_blank">
-			<!--abrir la pagina en otra pestaña-->
-			<!--cuando es una pagina por fuera se utiliza el link de la pagina mientras que cuando es un link interno se utiliza el nombre del archivo por ejemplo archivo.html-->
-			<p>click aca para ver a la osha mas hermosha del mundo</p>
-		</a> <!--vinculos a otras partes de la misma pagina-->
+		
 		<a href="mailto:d.ospina@uniandes.edu.co?subject=creando%20paginas&body=quisiera%20que%20me%20crearas%20una%20pagina">Contactenos</a><!--vinculos a mails-->
 		<a href=""></a>
 	</nav>
