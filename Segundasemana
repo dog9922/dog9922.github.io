@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang = "es-la">
+<head>
+	<meta charset="utf-8">
+	<title>Mi Segunda semana de clases</title>
+	<link rel="icon" type="image/png" href="Bear_icon.png"/>
+</head>
+<body>
+	<header><!--top of a page-->
+		<h1 id="top">heading</h1>
+		<a href="#end">ir al final</a>
+		<p>parrafos de texto,<strong>negrillas</strong> y <b>negrillas</b></p>
+		<p>tambien se pueden poner <em>italicas</em> o con <i>tambien</i></p>
+	</header>
+	<nav><!--section of mayor navigation of a page-->
+		<p><b>se utiliza la navegacion en partes de mayor navegacion de la pagina como lo son tablas de contenidos</b></p>
+		<a href="https://www.instagram.com/mariaboteropin/?hl=es-la" target="_blank">
+			<!--abrir la pagina en otra pestaña-->
+			<!--cuando es una pagina por fuera se utiliza el link de la pagina mientras que cuando es un link interno se utiliza el nombre del archivo por ejemplo archivo.html-->
+			<p>click aca para ver a la osha mas hermosha del mundo</p>
+		</a> <!--vinculos a otras partes de la misma pagina-->
+		<a href="mailto:d.ospina@uniandes.edu.co?subject=creando%20paginas&body=quisiera%20que%20me%20crearas%20una%20pagina">Contactenos</a><!--vinculos a mails-->
+		<a href=""></a>
+	</nav>
+	<article>
+		<p>el contenido de este mensaje corresponde a contenido independiente y reutilizable por otras paginas</p>
+	</article>
+	<section>
+		<p>el contenido en la seccion "section" se identifica por tener la misma tematica</p>
+	</section>
+	<aside>
+		<p>explica contenido extra sobre el mismo tema de la seccion</p>
+	</aside>
+	<footer>
+		<p>seccion de pie de pagina</p>
+	</footer>
+	<h1 id="listas">Listas</h1>
+	<h2>listas sin orden</h2>
+	<ul>
+		<li>Choti</li>
+		<li>Helena</li>
+		<li>Angela</li>
+		<li>Juan</li>
+		<li>Maria</li>
+		<li>David</li>
+	</ul>
+	<h2>listas con orden</h2>
+	<ol reversed start="10"><!--start define el numero en el cual se comienza la lista y reversed define si comienza ascendente o descendente-->
+		<li>Choti</li>
+		<li>Helena</li>
+		<li>Angela</li>
+		<li>Juan</li>
+		<li value="20">Maria</li><!--aplica un valor unico a la posicion deseada-->
+		<li>David</li>
+	</ol>
+	<h2>listas con descripcion</h2>
+	<dl>
+		<dt>oshna</dt>
+		<dd>ser apasionado por comer y molestar a osho</dd>
+		<dt>osho</dt>
+		<dd>ser que sigue ordenes de su osha</dd>
+	</dl>
+	<h2>nested lists</h2>
+	<ol>
+		<li>
+			ejercicio:
+			<ul>
+				<li>pilates</li>
+				<li>correr</li>
+				<li>GYM</li>
+			</ul>
+		</li>
+		<li>
+			desayuno:
+			<ul>
+				<li>huevos</li>
+				<li>pan</li>
+				<li>cafe</li>
+			</ul>
+		</li>
+	</ol>
+	<h1 id="media">Anadir multimedia</h1>
+	<h2>añadir imagenes</h2>
+	<img src="Mayosauro.jpg" alt="mi dragon" width="244" height="326">
+	<h1 id="tablas"> Organizando informacion en tablas</h1>
+	<h2>crear una tabla</h2>
+	<table>
+		<caption>Datos de Osos</caption>
+		<thead>
+			<tr>
+				<th scope="col"><b>Nombre</b></th>
+				<th scope="col"><b>Apellidos</b></th>
+				<th scope="col"><b>Edad</b></th>			
+			</tr>
+		</thead>
+		<tbody>
+			<tr><!--filas-->
+				<td>Maria</td>
+				<td>Botero</td>
+				<td>20</td>
+				</tr>
+			<tr>
+				<td>David</td>
+				<td>Ospina</td>
+				<td>21</td>
+			</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="2">Promedio</td>
+			<td>20.5</td>
+		</tr>
+	</tfoot>
+	</table>
+	<h3>hr</h3>
+	<hr>
+	<br>
+	<h3>adress</h3>
+	<address>transversal 76 #136-80 Bogotá, Colombia</address>
+	<h3>Blockquote (extended quotations)</h3>
+	<blockquote>"me encanta la pasta de almendra."<cite>Maria Botero</cite></blockquote>
+	<h3>Details</h3>
+	<details><summary>¿cual es el color favorito de Maria?</summary>El color favorito de Maria es el Azul</details>
+	<a href="#tablas">volver a Organizando la informacion en tablas</a>
+	<p><a href="medi">volver a añadir multimedia</a></p>
+	<p><a href="#listas">volver al tema listas</a></p>
+	<p id="end"><a href="#top">volver al principio</a></p>
+</body>
+</html>
